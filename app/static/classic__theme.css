@@ -1,0 +1,45 @@
+.wrapper__input {
+    width: 468px;
+    height: 477px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 22px; 
+}
+
+.wrapper__output {
+    width: 468px;
+    height: 477px;
+    background: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+.output__inner {
+    width: 405px;
+    height: 383px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+#inner__start {
+    margin-top: 400px;
+    width: 78px;
+    height: 41px;
+    color: white;
+
+    background: #5FFF79;
+    border-radius: 9999px;
+}
+
+#inner__idk {
+    width: 78px;
+    height: 41px;
+    margin-left: 16px;
+    color: white;
+    
+    background: #FF7F6E;
+    border-radius: 9999px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* height: 100%;
+    display: grid;
+    place-items: center; */
+}
+
+input {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+@media screen and (max-width: 940px) {
+    .wrapper {background-color: brown;
+        flex-direction: column;
+    }
+}
+
